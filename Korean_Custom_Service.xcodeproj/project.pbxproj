@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F09BAD0229FA2D8700B5F0DB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09BAD0129FA2D8700B5F0DB /* LocalAuthentication.framework */; };
+		F0CD305429F76D84000D93F1 /* KCW.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0CD305229F76D84000D93F1 /* KCW.jpeg */; };
+		F0CD305529F76D84000D93F1 /* 디지털 정부 서비스.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0CD305329F76D84000D93F1 /* 디지털 정부 서비스.jpeg */; };
+		F0CD305929F7C1CF000D93F1 /* 기능3.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CD305629F7C1CF000D93F1 /* 기능3.png */; };
+		F0CD305A29F7C1CF000D93F1 /* 기능1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CD305729F7C1CF000D93F1 /* 기능1.png */; };
+		F0CD305B29F7C1CF000D93F1 /* 기능2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CD305829F7C1CF000D93F1 /* 기능2.png */; };
 		F0E7D39429F50EA000AD6844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E7D39329F50EA000AD6844 /* AppDelegate.swift */; };
 		F0E7D39629F50EA000AD6844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E7D39529F50EA000AD6844 /* SceneDelegate.swift */; };
 		F0E7D39829F50EA000AD6844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E7D39729F50EA000AD6844 /* ViewController.swift */; };
@@ -17,7 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0E7D39029F50EA000AD6844 /* Korean_Custom_Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Korean_Custom_Service.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09BAD0129FA2D8700B5F0DB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F0CD305229F76D84000D93F1 /* KCW.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KCW.jpeg; sourceTree = "<group>"; };
+		F0CD305329F76D84000D93F1 /* 디지털 정부 서비스.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "디지털 정부 서비스.jpeg"; sourceTree = "<group>"; };
+		F0CD305629F7C1CF000D93F1 /* 기능3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "기능3.png"; sourceTree = "<group>"; };
+		F0CD305729F7C1CF000D93F1 /* 기능1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "기능1.png"; sourceTree = "<group>"; };
+		F0CD305829F7C1CF000D93F1 /* 기능2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "기능2.png"; sourceTree = "<group>"; };
+		F0E7D39029F50EA000AD6844 /* 모바일관세청.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "모바일관세청.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E7D39329F50EA000AD6844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0E7D39529F50EA000AD6844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F0E7D39729F50EA000AD6844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,31 +45,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09BAD0229FA2D8700B5F0DB /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F09BAD0029FA2D8700B5F0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09BAD0129FA2D8700B5F0DB /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0CD305129F76D64000D93F1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F0CD305729F7C1CF000D93F1 /* 기능1.png */,
+				F0CD305829F7C1CF000D93F1 /* 기능2.png */,
+				F0CD305629F7C1CF000D93F1 /* 기능3.png */,
+				F0CD305329F76D84000D93F1 /* 디지털 정부 서비스.jpeg */,
+				F0CD305229F76D84000D93F1 /* KCW.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F0E7D38729F50EA000AD6844 = {
 			isa = PBXGroup;
 			children = (
-				F0E7D39229F50EA000AD6844 /* Korean_Custom_Service */,
+				F0E7D39229F50EA000AD6844 /* 모바일관세청 */,
 				F0E7D39129F50EA000AD6844 /* Products */,
+				F09BAD0029FA2D8700B5F0DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F0E7D39129F50EA000AD6844 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0E7D39029F50EA000AD6844 /* Korean_Custom_Service.app */,
+				F0E7D39029F50EA000AD6844 /* 모바일관세청.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F0E7D39229F50EA000AD6844 /* Korean_Custom_Service */ = {
+		F0E7D39229F50EA000AD6844 /* 모바일관세청 */ = {
 			isa = PBXGroup;
 			children = (
+				F0CD305129F76D64000D93F1 /* Images */,
 				F0E7D39329F50EA000AD6844 /* AppDelegate.swift */,
 				F0E7D39529F50EA000AD6844 /* SceneDelegate.swift */,
 				F0E7D39729F50EA000AD6844 /* ViewController.swift */,
@@ -67,15 +102,16 @@
 				F0E7D3A429F50EA100AD6844 /* Info.plist */,
 				F0E7D39C29F50EA000AD6844 /* Korean_Custom_Service.xcdatamodeld */,
 			);
-			path = Korean_Custom_Service;
+			name = "모바일관세청";
+			path = "모바일관세청";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0E7D38F29F50EA000AD6844 /* Korean_Custom_Service */ = {
+		F0E7D38F29F50EA000AD6844 /* 모바일관세청 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0E7D3A729F50EA100AD6844 /* Build configuration list for PBXNativeTarget "Korean_Custom_Service" */;
+			buildConfigurationList = F0E7D3A729F50EA100AD6844 /* Build configuration list for PBXNativeTarget "모바일관세청" */;
 			buildPhases = (
 				F0E7D38C29F50EA000AD6844 /* Sources */,
 				F0E7D38D29F50EA000AD6844 /* Frameworks */,
@@ -85,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = Korean_Custom_Service;
+			name = "모바일관세청";
 			productName = Korean_Custom_Service;
-			productReference = F0E7D39029F50EA000AD6844 /* Korean_Custom_Service.app */;
+			productReference = F0E7D39029F50EA000AD6844 /* 모바일관세청.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0E7D38F29F50EA000AD6844 /* Korean_Custom_Service */,
+				F0E7D38F29F50EA000AD6844 /* 모바일관세청 */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CD305A29F7C1CF000D93F1 /* 기능1.png in Resources */,
+				F0CD305929F7C1CF000D93F1 /* 기능3.png in Resources */,
+				F0CD305529F76D84000D93F1 /* 디지털 정부 서비스.jpeg in Resources */,
 				F0E7D3A329F50EA100AD6844 /* LaunchScreen.storyboard in Resources */,
+				F0CD305429F76D84000D93F1 /* KCW.jpeg in Resources */,
+				F0CD305B29F7C1CF000D93F1 /* 기능2.png in Resources */,
 				F0E7D3A029F50EA100AD6844 /* Assets.xcassets in Resources */,
 				F0E7D39B29F50EA000AD6844 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +334,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DK4FJ4RF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Korean_Custom_Service/Info.plist;
+				INFOPLIST_FILE = "모바일관세청/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DK4FJ4RF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Korean_Custom_Service/Info.plist;
+				INFOPLIST_FILE = "모바일관세청/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -352,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0E7D3A729F50EA100AD6844 /* Build configuration list for PBXNativeTarget "Korean_Custom_Service" */ = {
+		F0E7D3A729F50EA100AD6844 /* Build configuration list for PBXNativeTarget "모바일관세청" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0E7D3A829F50EA100AD6844 /* Debug */,
