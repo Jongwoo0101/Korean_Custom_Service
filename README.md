@@ -17,5 +17,5 @@ ___
 
 
 ## ▶️실행
-- PC가 Mac OS Ventura 13ver을 만족해야 합니다.
+- PC가 Mac OS Ventura 13.0ver 이상을 만족해야 합니다.
 - XCode가 설치되어 있어야 합니다.
